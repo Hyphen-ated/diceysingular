@@ -3,7 +3,7 @@ import glob,os,re
 reg = re.compile('^.*[Dd]ice[^a-zA-Z].*$')
 
 os.chdir('./die/data/text/locale/di')
-for file in glob.glob("*.csv"):
+for file in glob.glob("cutscenes.csv"):
     f = open(file, 'r')
     content = f.readlines()
     f.close()
