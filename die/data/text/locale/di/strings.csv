@@ -1,4 +1,5 @@
 Changed?,String,String_di,Location,Notes,
+,_language_ translation by _translator_,Singularification by Hyphen-ated,Title Screen,To add your own credits for translation (e.g. Klingon translation by Worf),
 ,EVEN,PAR,Combat,Dice placed here must be EVEN (2-4-6),
 ,ODD,IMPAR,Combat,Dice placed here must be ODD (1-3-5),
 ,MAX,máx.,Combat,Dice placed here must not be more than this value (e.g. max 5),

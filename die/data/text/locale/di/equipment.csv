@@ -1,307 +1,227 @@
-Changed?,Name,Description,Name_di,Description_di,
-,Combat Roll,Reroll a dice|[gray](Reuseable),Tirada de combate,Lanza de nuevo un dado|[gray](Reutilizable),
-,Snowball,Do [ice]<d6> damage|Freeze [ice]1 dice,Bola de nieve,Hace [ice]<d6> de daño|Congela [ice]1 dado,
-,Snowball_upgraded,Do [ice]<d6> damage|Freeze [ice]1 dice,Snowball_upgraded,Hace [ice]<d6> de daño|Congela [ice]1 dado,
-,Freeze Spell,Deal [ice]5 damage|Freeze [ice]2 dice,Hechizo gélido,Hace [ice]5 de daño|Congela [ice]2 dados,
-,Freeze Spell_downgraded,Deal [ice]5 damage|Freeze [ice]1 dice,Freeze Spell_downgraded,Hace [ice]5 de daño|Congela [ice]1 dado,
-,Freeze Spell_upgraded,Deal [ice]5 damage|Freeze [ice]ALL dice,Freeze Spell_upgraded,Hace [ice]5 de daño|Congela [ice]TODOS los dados,
-,Flame Spell,Deal [fire]5 damage|Burn [fire]2 dice,Hechizo llama,Hace [fire]5 de daño|Quema [fire]2 dados,
-,Flame Spell_upgraded,Deal [fire]6 damage|Burn [fire]ALL dice,Flame Spell_upgraded,Hace [fire]6 de daño|Quema [fire]todos los dados,
-,Fireball,Deal [fire]<d6> damage|Burn [fire]1 dice,Bola de fuego,Hace [fire]<d6> de daño|Quema [fire]1 dado,
-,Fireball_upgraded,Deal [fire]<d6> damage|Burn [fire]2 dice,Fireball_upgraded,Hace [fire]<d6> de daño|Quema [fire]2 dados,
-,Hall of Mirrors,[]+1 dice this fight,Galería de espejos,[]+1 dado en esta pelea,
-,Burning Light,Deal [fire]<d6> damage|Burn [fire]1 dice,Luz abrasadora,Hace [fire]<d6> de daño|Quema [fire]1 dado,
-,Burning Light_downgraded,Deal [fire]<d6> damage|Burn [fire]1 dice,Burning Light_downgraded,Hace [fire]<d6> de daño|Quema [fire]1 dado,
-,Staff,Deal [fire]6 damage|Burn [fire]1 dice,Bastón,Hace [fire]6 de daño|Quema [fire]1 dado,
-,Staff_downgraded,Deal [fire]3 damage|Burn [fire]1 dice,Staff_downgraded,Hace [fire]3 de daño|Quema [fire]1 dado,
-,Staff_upgraded,Deal [fire]8 damage|Burn [fire]1 dice,Staff_upgraded,Hace [fire]8 de daño|Quema [fire]1 dado,
-,Dire Wolf Howl,Curse Enemy|[gray](items might fail),Aullido de huargo,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Dire Wolf Howl_upgraded,Curse Enemy|[gray](items might fail),Dire Wolf Howl_upgraded,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Dire Wolf Howl_downgraded,Curse Enemy|[gray](items might fail),Dire Wolf Howl_downgraded,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Shriek,Curse Enemy|[gray](items might fail),Chillido,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Shriek_upgraded,Curse Enemy|[gray](items might fail),Shriek_upgraded,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Infestation,Curse everyone|[gray](items might fail),Infestación,Maldice a todos|[gray](los objetos pueden fallar),
-,Infestation_upgraded,Curse enemy|[gray](items might fail),Infestation_upgraded,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Infestation_downgraded,Curse yourself|[gray](items might fail),Infestation_downgraded,Te maldice a ti|[gray](los objetos pueden fallar),
-,Bump,Dice value +1,Impulso,Valor del dado +1,
-,Bump_upgraded,Dice value +1|[gray](Reuseable),Bump_upgraded,Valor del dado +1|[gray](Reutilizable),
-,Nudge,Dice value -1,Redondeo,Valor del dado -1,
-,Nudge_upgraded,Dice value -1|[gray](Reuseable),Nudge_upgraded,Escoger,
-,Counter Spell,If enemy rolls <d6>[;]|that dice is locked,Contrahechizo,Si el enemigo saca <d6>[;]|el dado se bloquea,
-,Counter Spell_upgraded,Lock dice that roll <d6>|[gray](Reuseable),Counter Spell_upgraded,Bloquea el dado si saca <d6>|[gray](Reutilizable),
-,Fire Breath,Do [fire]4 damage|Burn [fire]1 dice,Aliento de fuego,Hace [fire]4 de daño|Quema [fire]1 dado,
-,Fire Breath_upgraded,Do [fire]6 damage|Burn [fire]1 dice,Fire Breath_upgraded,Hace [fire]6 de daño|Quema [fire]1 dado,
-,Lockpick,Split a dice in two,Ganzúa,Divide un dado en dos,
-,Lockpick_upgraded,Split a dice in two|On six[;] split into three,Lockpick_upgraded,Divide un dado en dos|Con seis[;] se divide en tres,
-,Nudgeblade,Do [sword]<d6> damage[;] get|new dice (value -1),Filo redondeador,Hace [sword]<d6> de daño[;] consigue|un dado nuevo (valor -1),
-,Nudgeblade_upgraded,Do [sword]<d6> damage[;] get|new dice (value -1),Filo redondeador_upgraded,Hace [sword]<d6> de daño[;] consigue|un dado nuevo (valor -1),
-,Nudgeblade_downgraded,Do [sword]<d6> damage[;] get|new dice (value -1),Filo redondeador_downgraded,Hace [sword]<d6> de daño[;] consigue|un dado nuevo (valor -1),
-,Nudgeblade_weakened,Do [sword]<d6> damage[;] get|new dice (value -1),Nudgeblade_weakened,Hace [sword]<d6> de daño[;] consigue|un dado nuevo (valor -1),
-,Counterfeit,Duplicate a dice,Réplica,Duplica un dado,
-,Counterfeit_upgraded,Duplicate a dice,Counterfeit_upgraded,Duplica un dado,
-,Counterfeit_downgraded,Duplicate a dice,Counterfeit_downgraded,Duplica un dado,
-,Counterfeit_weakened,Duplicate a dice,Counterfeit_weakened,Duplica un dado,
-,Hacksaw,Split a dice in three,Sierra de arco,Divide un dado en tres,
-,Hacksaw_upgraded,Split a dice in three,Hacksaw_upgraded,Divide un dado en tres,
-,Skeleton Key,Set all dice to <slotdoubles>,Llave maestra,Cambia todos los dados a <slotdoubles>,
-,Skeleton Key_upgraded,Set all dice to <d6>,Llave maestra_upgraded,Cambia todos los dados a <d6>,
-,Skeleton Key_downgraded,Set all dice to 2,Llave maestra_downgraded,Cambia todos los dados a 2,
-,Second Wind_downgraded,Roll an extra dice|[gray](once per battle),Second Wind_downgraded,Lanza un dado extra|[gray](una vez por combate),
-,Second Wind_weakened,Roll an extra dice|[gray](once per battle),Second Wind_weakened,Lanza un dado extra|[gray](una vez por combate),
-,Spanner,Combine dice,Llave,Combina dados,
-,Spanner_upgraded,Combine dice|[gray](Reuseable),Spanner_upgraded,Combina dados|[gray](Reutilizable),
-,Doppeldice,Double dice value,Doppeldado,Duplica el valor del dado,
-,Doppeldice_upgraded,Double dice value,Doppeldice_upgraded,Duplica el valor del dado,
-,Matchstick,Burns [fire]1 dice|[gray](Reuseable),Cerilla,Quema [fire]1 dado|[gray](Reutilizable),
-,Matchstick_upgraded,Burns [fire]1 dice|[gray](Reuseable),Matchstick_upgraded,Quema [fire]1 dado|[gray](Reutilizable),
-,Duplicate,Duplicate a dice,Duplicado,Duplica un dado,
-,Ice Shard,Do [ice]<d6> damage[;]|Freeze [ice]1 dice,Carámbano,Hace [ice]<d6> de daño[;]|congela [ice]1 dado,
-,Inferno,Do [fire]<d6> damage[;]|Burn [fire]1 dice,Infierno,Hace [fire]<d6> de daño[;]|Quema [fire]1 dado,
-,Inferno_upgraded,Do [fire]<d6> damage[;]|Burn [fire]2 dice,Inferno_upgraded,Hace [fire]<d6> de daño[;]|Quema [fire]2 dados,
-,Blizzard,Do [ice]<d6> damage[;]|Freeze [ice]1 dice,Ventisca,Hace [ice]<d6> de daño[;]|congela [ice]1 dado,
-,Blizzard_upgraded,Do [ice]<d6> damage[;]|Freeze [ice]2 dice,Blizzard_upgraded,Hace [ice]<d6> de daño[;]|congela [ice]2 dados,
-,Magic Reroll,Reroll unused dice,Tirada mágica,Lanza de nuevo el dado sin usar,
-,Meteor,Do [fire]20 damage[;]|burn all dice,Meteoro,Hace [fire]20 de daño[;]|quema todos los dados,
-,Meteor_upgraded,Do [fire]25 damage[;]|burn all dice,Meteor_upgraded,Hace [fire]25 de daño[;]|quema todos los dados,
-,Meteor_downgraded,Do [fire]10 damage[;]|burn a dice,Meteor_downgraded,Hace [fire]10 de daño[;]|quema todos los dados,
-,Cauldron,Do [sword]1 damage[;]|get a new dice,Caldero,Hace [sword]1 de daño[;]|recibe un dado nuevo,
-*** changed,Cauldron_upgraded,Do [sword]1 damage[;] reroll dice|[gray](Reuseable),Cauldron_upgraded,Hace [sword]1 de daño[;] nueva tirada|[gray](Reutilizable),
-,Glass Cauldron,Freeze [ice]1 dice[;]|roll a one,Caldero de cristal,Congela [ice]1 dado[;]|saca un uno,
-*** changed,Glass Cauldron_upgraded,Freeze [ice]1 dice[;] roll a one|[gray](Reuseable),Glass Cauldron_upgraded,Congela [ice]1 dado[;] saca un uno|[gray](Reutilizable),
-,Glass Cauldron_downgraded,Freeze [ice]1 dice,Glass Cauldron_downgraded,Congela [ice]1 dado,
-,Gold Cauldron,Do [sword]1 damage[;]|get an even dice,Caldero de oro,Hace [sword]1 de daño[;]|recibe un dado par,
-*** changed,Gold Cauldron_upgraded,Do [sword]1[;] get an even dice|[gray](Reuseable),Gold Cauldron_upgraded,Hace [sword]1[;] recibe dado par|[gray](Reutilizable),
-,Silver Cauldron,Do [sword]1 damage[;]|get an odd dice,Caldero de plata,Hace [sword]1 de daño[;]|recibe un dado impar,
-*** changed,Silver Cauldron_upgraded,Do [sword]1[;] get an odd dice|[gray](Reuseable),Silver Cauldron_upgraded,Hace [sword]1[;] recibe dado impar|[gray](Reutilizable),
-,Crucible,Roll a burning dice|[gray](Reuseable),Crisol,Lanza un dado en llamas|[gray](Reutilizable),
-,Crucible_upgraded,Roll four new burning dice,Crucible_upgraded,Lanza 4 dados en llamas nuevos,
-,Crucible_downgraded,Roll a burning dice,Crucible_downgraded,Lanza un dado en llamas,
-,Absolute Zero,Do [ice]25 damage[;]|freeze all dice,Cero absoluto,Hace [ice]25 de daño[;]|congela todos los dados,
-,Absolute Zero_upgraded,Do [ice]30 damage[;]|freeze all dice,Absolute Zero_upgraded,Hace [ice]30 de daño[;]|congela todos los dados,
-,Absolute Zero_downgraded,Do [ice]12 damage[;]|freeze a dice,Absolute Zero_downgraded,Hace [ice]12 de daño[;]|congela todos los dados,
-,Ink Splat,Blind [blind]1 dice,Mancha de tinta,Ciega [blind]1 dado,
-,Ink Splat_upgraded,Blind [blind]1 dice|[gray](Reuseable),Ink Splat_upgraded,Ciega [blind]1 dado|[gray](Reutilizable),
-,Seize,Lock [lock]1 dice,Incautar,Bloquea [lock]1 dado,
-,Spatula,Flip a dice upside down,Espátula,Voltea un dado,
-,Spatula_downgraded,Flip a dice upside down,Spatula_downgraded,Voltea un dado,
-,Spatula_upgraded,Flip a dice upside down|[gray](Reuseable),Spatula_upgraded,Voltea un dado|[gray](Reutilizable),
-,Quarterstaff,Do [sword]<d6> damage[;] on 4[;]|return the dice,Pica,Hace [sword]<d6> de daño[;] con 4[;]|devuelve el dado,
-,Quarterstaff_downgraded,Do [sword]<d6> damage[;] on 4[;]|return the dice,Quarterstaff_downgraded,Hace [sword]<d6> de daño[;] con 4[;]|devuelve el dado,
-,Quarterstaff_upgraded,Do [sword]<d6> damage[;] on 4[;]|return the dice,Quarterstaff_upgraded,Hace [sword]<d6> de daño[;] con 4[;]|devuelve el dado,
-,Juggling Ball,Do [sword]<d6> damage[;]|get a new dice,Malabarismo,Hace [sword]<d6> de daño[;]|consigue otro dado,
-,Juggling Ball_upgraded,Do [sword]<d6> damage[;]|get a new dice,Juggling Ball_upgraded,Hace [sword]<d6> de daño[;]|consigue otro dado,
-,Ice Age,Freeze all dice,Glaciación,Congela todos los dados,
-,Ice Age_upgraded,Freeze all dice,Ice Age_upgraded,Congela todos los dados,
-,Ice Age_downgraded,Freeze all dice,Congela todos los dados,Hace [ice]3 de daño[;] congela todos los dados,
-,Camouflage,Blind [blind]2 dice,Camuflaje,Ciega [blind]2 dados,
-,Camouflage_upgraded,Blind [blind]4 dice,Camouflage_upgraded,Ciega [blind]4 dados,
-,Camouflage_downgraded,Blind [blind]1 dice,Camouflage_downgraded,Ciega [blind]1 dado,
-,Sneeze,Split a dice into 1s,Estornudo,Divide un dado en unos,
-,Sneeze_upgraded,Split a dice into 1s[;]|and roll an extra 1,Sneeze_upgraded,Divide un dado en unos[;]|saca un 1 extra,
-,Sneeze_downgraded,Split a dice into 1s,Sneeze_downgraded,Divide un dado en unos,
-,The Wind,Do [sword]<d6> damage[;]|Lock [lock]2 dice,El Viento,Hace [sword]<d6> de daño[;]|Bloquea [lock]2 dados,
-,The Wind_upgraded,Do [sword]<d6> damage[;]|Lock [lock]2 dice,The Wind_upgraded,Hace [sword]<d6> de daño[;]|Bloquea [lock]2 dados,
-,The Wind_downgraded,Lock [lock]2 dice,The Wind_downgraded,Bloquea [lock]2 dados,
-,The Shadow,Do [sword]<d6> damage[;]|Blind [blind]3 dice,La Sombra,Hace [sword]<d6> de daño[;]|Ciega [blind]3 dados,
-,The Shadow_upgraded,Do [sword]<d6> damage[;]|Blind [blind]3 dice,The Shadow_upgraded,Hace [sword]<d6> de daño[;]|Ciega [blind]3 dados,
-,The Shadow_downgraded,Blind [blind]3 dice,The Shadow_downgraded,Ciega [blind]3 dados,
-,The Cold,Do [ice]<d6> damage[;]|Freeze [ice]4 dice,El Frío,Hace [ice]<d6> de daño[;]|Congela [ice]4 dados,
-,The Cold_upgraded,Do [ice]<d6> damage[;]|Freeze [ice]4 dice,The Cold_upgraded,Hace [ice]<d6> de daño[;]|Congela [ice]4 dados,
-,The Cold_downgraded,Freeze [ice]4 dice,The Cold_downgraded,Congela [ice]4 dados,
-,The Ashes,Do [fire]<d6> damage[;]|Burn [fire]5 dice,Las Cenizas,Hace [fire]<d6> de daño[;]|Quema [fire]5 dados,
-,The Ashes_upgraded,Do [fire]<d6> damage[;]|Burn [fire]5 dice,The Ashes_upgraded,Hace [fire]<d6> de daño[;]|Quema [fire]5 dados,
-,The Ashes_downgraded,Burn [fire]5 dice,The Ashes_downgraded,Quema [fire]5 dados,
-,Missile Launcher,Do [fire]<d6> damage[;]|Burn [fire]2 dice,Lanzamisiles,Hace [fire]<d6> de daño[;]|Quema [fire]2 dados,
-,Missile Launcher_upgraded,Do [fire]<d6> damage[;]|Burn [fire]2 dice,Missile Launcher_upgraded,Hace [fire]<d6> de daño[;]|Quema [fire]2 dados,
-,Bumpblade,Do [sword]1 damage[;] get|new dice (value +1),Espada impulsora,Hace [sword]1 de daño[;] recibe|un dado nuevo (valor +1),
-,Bumpblade_upgraded,[sword]1 dmg[;] bump dice|new dice (value +1),Bumpblade_upgraded,[sword]1 de daño[;] impulsa dado|nuevo dado (valor +1),
-,Lock 1,Unlocks Keyblade[;]|return the dice,Cerradura 1,Desbloquea la llave espada[;]|devuelve el dado,
-,Lock 2,Unlocks Keyblade[;]|return the dice,Cerradura 2,Desbloquea la llave espada[;]|devuelve el dado,
-,Lock 3,Unlocks Keyblade[;]|return the dice,Cerradura 3,Desbloquea la llave espada[;]|devuelve el dado,
-,Lock 4,Unlocks Keyblade[;]|return the dice,Cerradura 4,Desbloquea la llave espada[;]|devuelve el dado,
-,Lock 5,Unlocks Keyblade[;]|return the dice,Cerradura 5,Desbloquea la llave espada[;]|devuelve el dado,
-,Lock 6,Unlocks Keyblade[;]|return the dice,Cerradura 6,Desbloquea la llave espada[;]|devuelve el dado,
-*** changed,Lock 1_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 1_upgraded,Desbloquea la llave espada+[;]|voltea el dado,
-*** changed,Lock 2_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 2_upgraded,Desbloquea la llave espada+[;]|voltea el dado,
-*** changed,Lock 3_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 3_upgraded,Desbloquea la llave espada+[;]|voltea el dado,
-*** changed,Lock 4_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 4_upgraded,Desbloquea la llave espada+[;]|voltea el dado,
-*** changed,Lock 5_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 5_upgraded,Desbloquea la llave espada+[;]|voltea el dado,
-*** changed,Lock 6_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 6_upgraded,Desbloquea la llave espada+[;]|voltea el dado,
-,Keyblade,Do [sword]3 damage[;]|return the dice,Llave espada,Hace [sword]3 de daño[;]|devuelve el dado,
-,Keyblade_upgraded,Do [sword]4 damage[;]|return the dice,Keyblade_upgraded,Hace [sword]4 de daño[;]|devuelve el dado,
-,Fire Potion,[fire]8 dmg[;] burn all dice|[gray](once per battle),Poción de fuego,[fire]8 de daño[;] quema todos los dados|[gray](una vez por combate),
-,Glue,Lock [lock]1 dice|[gray](Reuseable),Pegamento,Bloquea [lock]1 dado|[gray](Reutilizable),
-,Glue_upgraded,Lock [lock]1 dice|[gray](Reuseable),Glue_upgraded,Bloquea [lock]1 dado|[gray](Reutilizable),
-,Campfire,[fire]<timesused> dmg[;] burn a dice|Add +[fire]1 each use,Fogata,[fire]<timesused> de daño[;] quema un dado|Añade +[fire]1 con cada uso,
-,Campfire_upgraded,[fire]<timesused> dmg[;] burn two dice|Add +[fire]1 each use,Campfire_upgraded,[fire]<timesused> de daño[;] quema dos dados|Añade +[fire]1 con cada uso,
-,Fire Crystal,Deal [fire]<d6> damage|Burn [fire]1 dice,Cristal ígneo,Hace [fire]<d6> de daño|Quema [fire]1 dado,
-,Ice Crystal,Do [ice]<d6> damage[;]|Freeze [ice]1 dice,Cristal helado,Hace [ice]<d6> de daño[;]|Congela [ice]1 dado,
-,Smokey Crystal,Curse Enemy|[gray](items might fail),Cristal humeante,Maldice al enemigo|[gray](los objetos pueden fallar),
-,Stumble_upgraded,Lose [heart]1 health[;]|return the dice,Stumble_upgraded,Pierde [heart]1 de salud[;]|devuelve el dado,
-,Dice Cannon,Do [sword]1 damage|[gray](Reuseable),Cañón de dados,Hace [sword]1 de daño|[gray](Reutilizable),
-,Dice Cannon_upgraded,Do [sword]2 damage|[gray](Reuseable),Dice Cannon_upgraded,Hace [sword]2 de daño|[gray](Reutilizable),
-,Silver Dagger,Do [sword]<d6> damage[;]|if odd[;] get a new dice,Daga de plata,Hace [sword]<d6> de daño[;]|si es impar[;] consigue otro dado,
-,Gold Dagger,Do [sword]<d6> damage[;]|if even[;] get a new dice,Daga de oro,Hace [sword]<d6> de daño[;]|si es par[;] consigue otro dado,
-,Flame Blast,Do [fire]6 damage for|each burning enemy dice,Fulgor llameante,Hace [fire]6 de daño por|cada dado enemigo en llamas,
-,Flame Blast_upgraded,Do [fire]7 damage for|each burning enemy dice,Flame Blast_upgraded,Hace [fire]7 de daño por|cada dado enemigo en llamas,
-,Flame Blast_downgraded,Do [fire]4 damage for|each burning enemy dice,Flame Blast_downgraded,Hace [fire]4 de daño por|cada dado enemigo en llamas,
-,High Voltage,Do [shock]<d6> damage[;] return|dice if enemy is shocked,Alto voltaje,Hace [shock]<d6> de daño[;] devuelve|dado con enemigo electroc.,
-,High Voltage_upgraded,Do [shock]<d6> damage[;] return|dice if enemy is shocked,High Voltage_upgraded,Hace [shock]<d6> de daño[;] devuelve|dado con enemigo electroc.,
-,High Voltage_downgraded,Do [shock]<d6> damage[;] return|dice if enemy is shocked,High Voltage_downgraded,Hace [shock]<d6> de daño[;] devuelve|dado con enemigo electroc.,
-,Spark,Burns [fire]1 dice,Chispa,Quema [fire]1 dado,
-,Snowflake,Freeze [ice]1 dice,Copo de nieve,Congela [ice]1 dado,
-,Boop_upgraded,Do [sword]2 damage[;]|return the dice,Boop_upgraded,Hace [sword]2 de daño[;]|devuelve el dado,
-,Parrying Dagger,Do [sword]<d6> damage[;] lock|enemy dice that roll <d6>,Daga elusiva,Hace [sword]<d6> de daño[;] bloquea|dado enemigo si saca <d6>,
-,Scissors,Do [sword]<d6> damage[;]|split dice in two,Tijeras,Hace [sword]<d6> de daño[;]|divide un dado en dos,
-,Gemstone Staff,Do [ice]6 damage|Freeze [ice]1 dice,Bastón de gemas,Hace [ice]6 de daño|Congela [ice]1 dado,
-,Gemstone Staff_weakened,Do [ice]6 damage|Freeze [ice]1 dice,Gemstone Staff_weakened,Hace [ice]6 de daño|Congela [ice]1 dado,
-,Gemstone Staff_downgraded,Do [ice]3 damage|Freeze [ice]1 dice,Gemstone Staff_downgraded,Hace [ice]3 de daño|Congela [ice]1 dado,
-,Thick Skin,Add [shield]<d6> to shield[;]|return the dice,Piel gruesa,Añade [shield]<d6> al escudo[;]|devuelve el dado,
-,Thick Skin_upgraded,[]+[shield]<d6> shield[;] +[reduce]1 reduce[;]|return the dice,Thick Skin_upgraded,[]+[shield]<d6> escudo[;] +[reduce]1 reducción[;]|devuelve el dado,
-,Combat Spatula,Flip a dice upside down|[gray](Reuseable),Espátula de combate,Voltea un dado|[gray](Reutilizable),
-,Grappling Hook?,Keep the next dice you|use[;] and return this dice,¿Garfio?,Mantén el próximo dado|usado y devuelve este,
-,Grappling Hook?_upgraded,Keep the next dice you|use[;] and return this dice,Grappling Hook?_upgraded,Mantén el próximo dado|usado y devuelve este,
-,Grappling Hook?_downgraded,Keep the next dice you use,Grappling Hook?_downgraded,Mantén próximo dado usado,
-,Fishing Net,Do [sword]<d6> damage[;]|lock [lock]1 dice on 3,Red de pesca,Hace [sword]<d6> de daño[;]|bloquea [lock]1 dado con 3,
-,Fishing Net_downgraded,Do [sword]<d6> damage[;]|lock [lock]1 dice on 2,Fishing Net_downgraded,Hace [sword]<d6> de daño[;]|bloquea [lock]1 dado con 2,
-,Fishing Net_upgraded,Do [sword]<d6> damage[;]|lock [lock]1 dice on 5,Fishing Net_upgraded,Hace [sword]<d6> de daño[;]|bloquea [lock]1 dado con 5,
-,Ignite,Inflict [fire]1 burn[;]|return both dice,Prender,Inflige [fire]1 quemadura[;]|devuelve ambos dados,
-,Ignite_upgraded,Inflict [fire]1 burn[;]|return the dice,Ignite_upgraded,Inflige [fire]1 quemadura[;]|devuelve el dado,
-,Half Moon Charm_upgraded,Roll two dice that|add up to six,Half Moon Charm_upgraded,Saca dos dados que|suman seis,
-,Lucky Roll,Reroll the dice[;] get a|higher value than before,Tirada afortunada,Lanza el dado de nuevo|y saca un valor mayor,
-,Sine Wave,First dice value +1|Second dice value -1,Onda sinusoidal,Valor del primer dado +1|Valor del segundo -1,
-,Sine Wave_upgraded,Both dice values +1,Sine Wave_upgraded,Valor de ambos dados +1,
-,Sine Wave_downgraded,Both dice values -1,Sine Wave_downgraded,Valor de ambos dados -1,
-,Candle,Dice value -1[;] Lose [heart]1 hp|[gray](Reuseable),Candela,Valor de dado -1[;] pierde [heart]1 PS|[gray](Reutilizable),
-,Candle_upgraded,Dice value +1[;] Lose [heart]1 hp|[gray](Reuseable),Candle_upgraded,Valor de dado +1[;] pierde [heart]1 PS|[gray](Reutilizable),
-,Slingshot,Do [sword]6 damage[;]|reroll the dice,Tirachinas,Hace [sword]6 de daño[;]|lanza de nuevo el dado,
-,Disco Ball,Get +1 dice next turn|if the enemy rolls a <d6>,Bola de discoteca,Dado +1 próximo turno|si el enemigo saca un <d6>,
-,Disco Ball_upgraded,Get +1 dice next turn|if the enemy rolls a <d6>|[gray](Reuseable),Disco Ball_upgraded,Dado +1 próximo turno|si el enemigo saca un <d6>|[gray](Reutilizable),
-,Freeze Spell?_upgraded,Deal [ice]5 damage|Inflict [ice]1 freeze per dice,Freeze Spell?_upgraded,Hace [ice]5 de daño|Inflige [ice]1 congelación por dado,
-*** new,Magic Key,Split a dice in two,Llave mágica,Divide un dado en dos,
-*** new,Magic Key_upgraded,Split a dice in two,Magic Key_upgraded,Divide un dado en dos,
-*** new,Liquid Cooling,Freeze all of your|own dice,Refrigeración líquida,Congela todos tus|propios dados,
-*** new,Mechanical Leg,Do [sword]2 damage for each|unused dice ([sword]<doubleunassigneddice> total),Pierna mecánica,Hace [sword]2 de daño por cada|dado sin usar ([sword]<doubleunassigneddice> en total),
-*** new,Mechanical Leg_upgraded,[sword]2 per unused dice ([sword]<doubleunassigneddice>)|[gray](Reuseable),Mechanical Leg_upgraded,[sword]2 por dado sin usar ([sword]<doubleunassigneddice>)|[gray](Reutilizable),
-*** new,Mechanical Leg_downgraded,Do [sword]1 damage for each|unused dice ([sword]<unassigneddice> total),Mechanical Leg_downgraded,Hace [sword]1 de daño por cada|dado sin usar ([sword]<unassigneddice> total),
-*** new,Spatulasword,Do [sword]<d6> damage[;] and|flip the dice upside down,Espadátula,Hace [sword]<d6> de daño y|voltea el dado,
-*** new,Spatulasword_upgraded,Flip the dice upside down[;]|and do [sword]<d6> damage,Spatulasword_upgraded,Voltea el dado|y hace [sword]<d6> de daño,
-*** new,Spatulasword_downgraded,Flip a dice upside down,Spatulasword_downgraded,Voltea un dado,
-*** new,Ungeradedice,Double dice value[;]|then subtract 1,Imparidad dadil,Duplica el valor del dado[;]|después resta 1,
-*** new,Ungeradedice_upgraded,Double dice value[;]|then add 1,Ungeradedice_upgraded,Duplica el valor del dado[;]|después suma 1,
-*** new,Vise Grip,Return two of the|difference between dice,Alicate de presión,Devuelve dos de la|diferencia entre dados,
-*** new,Vise Grip_upgraded,Return three of the|difference between dice,Vise Grip_upgraded,Devuelve tres de la|diferencia entre dados,
-*** new,Vise Grip_downgraded,Return the difference|between the dice,Vise Grip_downgraded,Devuelve la diferencia|entre los dados,
-*** new,Missing Score,Do [sword]<d6> damage|25% chance to return dice,Punto errado,Hace [sword]<d6> de daño|25% prob. de devolver dado,
-*** new,Missing Score_upgraded,Do [sword]<d6> damage|75% chance to return dice,Missing Score_upgraded,Hace [sword]<d6> de daño|75% prob. de devolver dado,
-*** new,Lojinx,Do [sword]2 for each [jinx]jinx[;]|then return the dice,Gaflicción,Hace [sword]2 por cada [jinx]gafe[;]|devuelve el dado,
-*** new,Lojinx_upgraded,Do [sword]3 for each [jinx]jinx[;]|then return the dice,Lojinx_upgraded,Hace [sword]3 por cada [jinx]gafe[;]|devuelve el dado,
-*** new,Lojinx_downgraded,Do [sword]1 for each [jinx]jinx[;]|then return the dice,Lojinx_downgraded,Hace [sword]1 por cada [jinx]gafe[;]|devuelve el dado,
-*** new,Subdivide,Split a dice evenly,Subdividir,Divide un dado|en partes iguales,
-*** new,Subdivide_upgraded,Split a dice as|evenly as possible,Subdivide_upgraded,Divide un dado|en partes iguales (si puede),
-*** new,Lollipop,Dice value -1. On 1[;]|instead return two 1s,Piruleta,Valor del dado -1. Con 1[;] en su lugar|devuelve dos unos,
-*** new,Lollipop_upgraded,Dice value -1. On 1[;]|instead return two dice,Lollipop_upgraded,Valor del dado -1. Con 1[;] en su lugar|devuelve dos dados,
-*** new,Shadow Dice,Duplicate a dice|Lose [heart]<d6> health,Dado oscuro,Duplica un dado|Pierde [heart]<d6> de salud,
-*** new,Shadow Dice_upgraded,Duplicate a dice|Lose [heart]<d6> health|[gray](Reuseable),Shadow Dice_upgraded,Duplica un dado|Pierde [heart]<d6> de salud|[gray](Reutilizable),
-*** new,Mirror Shard,Do [sword]9 damage[;]|+1 dice this fight,Esquirla de espejo,Hace [sword]9 de daño[;]|+1 dado en esta pelea,
-*** new,Mirror Shard_upgraded,Do [sword]12 damage[;]|+1 dice this fight,Mirror Shard_upgraded,Hace [sword]12 de daño[;]|+1 dado en esta pelea,
-*** new,Call for Backup Robot?,Power Surge|Add +1 to all dice|less than six,¿Refuerzo del robot?,Pico de tensión|Añade +1 a todos los dados|menores que seis,
-*** new,Gumball Machine,Recover [heal]1 health[;]|get a new dice,Máquina de chicle,Recupera [heal]1 de salud[;]|recibe un dado nuevo,
-*** new,Gumball Machine_upgraded,Recover [heal]<d6> health[;]|get a new dice,Gumball Machine_upgraded,Recupera [heal]<d6> de salud[;]|recibe un dado nuevo,
-*** new,Laugh Track,Curse Enemy|[gray](items might fail),Risa enlatada,Maldice al enemigo|[gray](los objetos pueden fallar),
-*** new,Bow Wow Wow,Make unavailable cards|available[;] return dice,Zarpazo,Activa cartas no|disponibles[;] devuelve dado,
-*** new,Yip Yip Yip,Reroll a dice|(maintains [fury]Fury[]),Colmillito,Lanza de nuevo un dado|(mantiene [fury]Furia[]),
-*** new,Yip Yip Yip_upgraded,Reroll a dice|(maintains [fury]Fury[]),Yip Yip Yip_upgraded,Lanza de nuevo un dado|(mantiene [fury]Furia[]),
-*** new,Yip Yip Yip_downgraded,Reroll a dice,Yip Yip Yip_downgraded,Lanza de nuevo un dado,
-*** new,Table Slam,Reroll all unused dice[;]|and return this dice,Planchazo,Lanza de nuevo un dado|sin usar[;] devuelve el dado,
-*** new,Chorus,Roll a dice for every|[weaken]1 weaken on enemy,Coro,Lanza un dado por cada|[weaken]1 de debilidad en el enemigo,
-*** new,Front Line,Lose [heart]3 health[;] gain|[shield]3 shield[;] return the dice,Vanguardia,Pierde [heart]3 de salud[;] gana|[shield]3 de escudo[;] devuelve el dado,
-*** new,Front Line_upgraded,Lose [heart]6 health[;] gain|[shield]6 shield[;] return the dice,Front Line_upgraded,Pierde [heart]6 de salud[;] gana|[shield]6 de escudo[;] devuelve el dado,
-*** new,Fruit Bowl,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice),Frutero,Hace [sword]1 de daño[;] nueva tirada|(Coste [mana]1[]: devuelve dos dados),
-*** new,Fruit Bowl_upgraded,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice)|[gray](Reuseable),Fruit Bowl_upgraded,Hace [sword]1 de daño[;] nueva tirada|(Coste [mana]1[]: devuelve dos dados)|[gray](Reutilizable),
-*** new,Dice Detonator,Do [sword]<var_tempdicedetonator:throwndicecount> damage|([sword]2 per dice thrown),Detonadados,Hace [sword]<var_tempdicedetonator:throwndicecount> de daño|([sword]2 por dado lanzado),
-*** new,Mirror Cauldron,Get a new dice[;] on 6|get +1 dice this fight,Caldero espejo,Consigue un dado nuevo[;] con 6|recibe +1 dado en esta pelea,
-*** new,Mirror Cauldron_upgraded,Get a new dice[;] on even|get +1 dice this fight,Mirror Cauldron_upgraded,Consigue un dado nuevo[;] con par|recibe +1 dado en esta pelea,
-*** new,Mirror Cauldron_downgraded,Get a new dice,Mirror Cauldron_downgraded,Recibe un dado nuevo,
-*** new,Doppeltwice,Double dice value|[gray](Reuseable),Doppeldoble,Duplica el valor del dado|[gray](Reutilizable),
-*** new,Doppeltwice_upgraded,Double dice value|[gray](Reuseable),Doppeltwice_upgraded,Duplica el valor del dado|[gray](Reutilizable),
-*** new,Magnifying Glass,Double dice value|(Cost [mana]1[]: instead[;] triple),Lupa,Duplica el valor del dado|(Coste [mana]1[]: en su lugar[;] triple),
-*** new,Magnifying Glass_upgraded,Double dice value|(Cost [mana]1[]: instead[;] triple),Magnifying Glass_upgraded,Duplica el valor del dado|(Coste [mana]1[]: en su lugar[;] triple),
-*** new,Stew Pot,Do [sword]1 damage[;] reroll dice|(If [mana]>=6: return 5 or 6),Marmita,Hace [sword]1 de daño[;] nueva tirada|(Si [mana]1>=6: devuelve 5 o 6),
-*** new,Flower Pot,Get a new dice[;]|on 4[;] gain [mana]1 mana,Maceta,Recibe un dado nuevo[;]|con 4[;] gana [mana]1 de maná,
-*** new,Flower Pot_upgraded,Get a new dice[;]|on even[;] gain [mana]1 mana,Flower Pot_upgraded,Recibe un dado nuevo[;]|con par[;] gana [mana]1 de maná,
-*** new,Flower Pot_downgraded,Get a new dice,Flower Pot_downgraded,Recibe un dado nuevo,
-*** new,Bronze Cauldron,Do [sword]2[;] get an odd dice|[gray](Reuseable),Caldero de bronce,Hace [sword]2[;] recibe dado impar|[gray](Reutilizable),
-*** new,Bronze Cauldron_upgraded,Do [sword]3[;] get an odd dice|[gray](Reuseable),Bronze Cauldron_upgraded,Hace [sword]3[;] recibe dado impar|[gray](Reutilizable),
-*** new,Daffodil,Dice value -1|(At start of turn: get [mana]1),Narciso,Valor del dado -1|(Al comenzar el turno: recibe [mana]1),
-*** new,Daffodil_upgraded,Dice value -1|(At start of turn: get [mana]1),Daffodil_upgraded,Valor del dado -1|(Al comenzar el turno: recibe [mana]1),
-*** new,Sunburn,Do [fire]<d6> damage|(Cost [mana]1[]: burn a dice),Quemadura solar,Hace [fire]<d6> de daño|(Coste [mana]1[]: quema un dado),
-*** new,Sunburn_upgraded,Do [fire]<d6> damage|(Cost [mana]1[]: burn a dice),Sunburn_upgraded,Hace [fire]<d6> de daño|(Coste [mana]1[]: quema un dado),
-*** new,Lucky 7,Do [sword]7[;] return a dice,7 de la suerte,Hace [sword]7[;] devuelve un dado,
-*** new,Lucky 7_upgraded,Do [sword]7[;] return first dice,Lucky 7_upgraded,Hace [sword]7[;] devuelve primer dado,
-*** new,Master Key,Split a dice as|evenly as possible,Llave maestra,Divide un dado|en partes iguales (si puede),
-*** new,Master Key_upgraded,Split a dice as|evenly as possible,Master Key_upgraded,Divide un dado|en partes iguales (si puede),
-*** new,Master Key_downgraded,Split a dice as|evenly as possible,Master Key_downgraded,Divide un dado|en partes iguales (si puede),
-*** new,Chisel,Dice value -1[;] roll a 1 ,Cincel,Valor del dado -1[;] saca un 1 ,
-*** new,Chisel_upgraded,Dice value -1[;] roll a 1|[gray](Reuseable),Chisel_upgraded,Valor del dado -1[;] saca un 1|[gray](Reutilizable),
-*** new,Chisel_downgraded,Dice value -1,Chisel_downgraded,Valor del dado -1,
-*** new,Signal Jammer,Split a dice unevenly,Inhibidor de señal,Divide un dado|en partes desiguales,
-*** new,Signal Jammer_downgraded,Split a dice unevenly,Signal Jammer_downgraded,Divide un dado|en partes desiguales,
-*** new,Signal Jammer_upgraded,Split a dice unevenly|[gray](Reuseable),Signal Jammer_upgraded,Divide un dado|en partes desiguales|[gray](Reutilizable),
-*** new,Splitula,Flip a dice upside down[;]|duplicate the flipped dice,Duplátula,Voltea un dado[;]|duplica el dado volteado,
-*** new,Splitula_upgraded,Flip a dice upside down[;]|duplicate the flipped dice,Splitula_upgraded,Voltea un dado[;]|duplica el dado volteado,
-*** new,Splitula_downgraded,Flip a dice upside down,Splitula_downgraded,Voltea un dado,
-*** new,Befuddle,Duplicate one dice[;]|return the other,Desconcierto,Duplica un dado[;]|devuelve el otro,
-*** new,Befuddle_upgraded,Duplicate one dice[;]|return the other,Befuddle_upgraded,Duplica un dado[;]|devuelve el otro,
-*** new,Befuddle_downgraded,Duplicate one dice[;]|return the other,Befuddle_downgraded,Duplica un dado[;]|devuelve el otro,
-*** new,Befuddle_weakened,Duplicate one dice[;]|return the other,Befuddle_weakened,Duplica un dado[;]|devuelve el otro,
-*** new,Broken Mirror,Next turn[;] gain +1 dice this|fight[;] and curse yourself,Espejo roto,Al siguiente turno[;] gana +1|dado en esta pelea y te maldice,
-*** new,Dramatic Entrance_downgraded,At the start of the first|turn[;] roll an extra dice,Dramatic Entrance_downgraded,Al comenzar el primer|turno[;] lanza un dado extra,
-*** new,Berlin Key,Set a random dice to <d6>|Return the dice,Omnillave,Convierte un dado al azar en <d6>|Devuelve el dado,
-*** new,Berlin Key_upgraded,Set dice to <d6>[;] return dice|[gray](Reuseable),Berlin Key_upgraded,Convierte el dado en <d6>[;]|lo devuelve|[gray](Reutilizable)),
-*** new,Berlin Key_downgraded,Set a random dice to <d6>|Return the dice,Berlin Key_downgraded,Convierte un dado al azar en <d6>|Devuelve el dado,
-*** new,Raw Ambition,Curse Enemy|[gray](items might fail),Pura ambición,Maldice al enemigo|[gray](los objetos pueden fallar),
-*** new,Harmony,Do [weaken]<d6> damage[;] return|dice if enemy is weakened,Armonía,Hace [weaken]<d6> de daño[;] devuelve|dado con enemigo debilitado,
-*** new,Lighter,Do [fire]2 damage[;]|burn [fire]1 dice,Mechero,Hace [fire]2 de daño[;]|quema [fire]1 dado,
-*** new,Lighter_upgraded,Do [fire]3 damage[;]|burn [fire]1 dice,Lighter_upgraded,Hace [fire]3 de daño[;]|quema [fire]1 dado,
-*** new,Lighter_downgraded,Do [fire]1 damage[;]|burn [fire]1 dice,Lighter_downgraded,Hace [fire]1 de daño[;]|quema [fire]1 dado,
-*** new,Molotov Cocktail,Do [fire]<d6> damage[;]|on 4[;] burn [fire]1 dice,Cóctel molotov,Hace [fire]<d6> de daño[;]|con 4[;] quema [fire]1 dado,
-*** new,Molotov Cocktail_upgraded,Do [fire]<d6> damage[;]|on even[;] burn [fire]1 dice,Molotov Cocktail_upgraded,Hace [fire]<d6> de daño[;]|con par[;] quema [fire]1 dado,
-*** new,Giant Spatula,Flip all your dice|upside down,Espátula gigante,Voltea todos tus dados,
-*** new,Giant Spatula_downgraded,Flip all your dice|upside down,Giant Spatula_downgraded,Voltea todos tus dados,
-*** new,Giant Spatula_upgraded,Flip all dice upside|down[;] return this one,Giant Spatula_upgraded,Voltea todos los dados[;]|devuelve este,
-*** new,Scrap Kettle_upgraded,Roll a burning dice|(Always offered as scrap),Scrap Kettle_upgraded,Lanza un dado en llamas|(Siempre como chatarra),
-*** new,Scrap Book,Duplicate a dice|(Always offered as scrap),Libro chatarrero,Duplica un dado|(Siempre como chatarra),
-*** new,Scrap Bump,Dice value +1|(Always offered as scrap),Impulso chatarrero,Valor del dado +1|(Siempre como chatarra),
-*** new,Scrap Bump_upgraded,Dice value +1|(Always offered as scrap),Scrap Bump_upgraded,Valor del dado +1|(Siempre como chatarra),
-*** new,Smush Together,Combine dice[;] value -1,Revoltijo,Combina dados[;] valor -1,
-*** new,Smush Together_upgraded,Combine dice[;] value +1,Smush Together_upgraded,Combina dados[;] valor +1,
-*** new,Calculator,Multiply dice together[;]|do that much damage,Calculadora,Multiplica los dados entre sí[;]|hace el resultado en daño,
-*** new,Calculator_upgraded,Multiply dice together[;]|do that much damage,Calculator_upgraded,Multiplica los dados entre sí[;]|hace el resultado en daño,
-*** new,Calculator_downgraded,Multiply dice together[;]|do that much damage,Calculator_downgraded,Multiplica los dados entre sí[;]|hace el resultado en daño,
-*** new,Plague,At the start of each turn[;]|curse everyone,Plaga,Al empezar cada turno[;]|maldice a todos,
-*** new,Plague_upgraded,At the start of each turn[;]|curse enemy,Plague_upgraded,Al empezar cada turno[;]|maldice al enemigo,
-*** new,Plague_downgraded,At the start of each turn[;]|curse yourself,Plague_downgraded,Al empezar cada turno[;]|te maldice a ti mismo,
-*** new,Spannersword,Combine dice[;] do [sword]1,Espadarramienta,Combina dados[;] hace [sword]1,
-*** new,Spannersword_upgraded,Combine dice[;] do [sword]1|[gray](Reuseable),Spannersword_upgraded,Combina dados[;] hace [sword]1|[gray](Reutilizable),
-*** new,Justice,Do [sword]<d6> damage[;]|blind all dice,Justicia,Hace [sword]<d6> de daño[;]|ciega todos los dados,
-*** new,Judgement@dicepeople,Do [sword]<triple>[;] dice|people take only [sword]1,Juicio@dicepeople,Hace [sword]<triple>[;] los dados|humanos solo reciben [sword]1,
-*** FINALE,Slime Ball,Burns [fire]1 dice,***,***,
-*** FINALE,Custard Pie,Blind 2 dice[;] then|return the dice,***,***,
-*** FINALE,Custard Pie_upgraded,Blind 4 dice[;] then|return the dice,***,***,
-*** FINALE,Custard Pie_downgraded,Blind 1 dice[;] then|return the dice,***,***,
-*** FINALE,Blood Cauldron,Drain [heart]1 health[;]|get a new dice,***,***,
-*** FINALE,Blood Cauldron_upgraded,Drain [heart]1 health[;] reroll dice|[gray](Reuseable),***,***,
-*** FINALE,Dust Cloud,Do [sword]<d6> damage[;]|on 6[;] blind [blind]2 dice,***,***,
-*** FINALE,Dust Cloud_upgraded,Do [sword]<d6> damage[;]|blind [blind]2 dice,***,***,
-*** FINALE,Beetle Headbutt,Do [sword]5 damage[;]|Lock [lock]1 dice,***,***,
-*** FINALE,Beetle Headbutt_upgraded,Do [sword]8 damage[;]|Lock [lock]1 dice,***,***,
-*** FINALE,Beetle Headbutt_downgraded,Lock [lock]1 dice,***,***,
-*** FINALE,Uptick@1,Increase and reset all dice|[gray](Current uptick: 1),***,***,
-*** FINALE,Uptick@2,Increase and reset all dice|[gray](Current uptick: 2),***,***,
-*** FINALE,Uptick@3,Increase and reset all dice|[gray](Current uptick: 3),***,***,
-*** FINALE,Uptick@4,Increase and reset all dice|[gray](Current uptick: 4),***,***,
-*** FINALE,Uptick@5,Increase and reset all dice|[gray](Current uptick: 5),***,***,
-*** FINALE,Glare,Lock [lock]1 dice|[gray](Reuseable),***,***,
-*** FINALE,Glare_downgraded,Lock [lock]1 dice,***,***,
-*** FINALE,Hurricane,Do [sword]4[;] lock [lock]1 dice|[gray](once per battle),***,***,
+Changed?,Name,Description,Name_di,Description_di
+,Combat Roll,Reroll a dice|[gray](Reuseable),Combat Roll,Reroll a die|[gray](Reuseable)
+,Snowball,Do [ice]<d6> damage|Freeze [ice]1 dice,Snowball,Do [ice]<d6> damage|Freeze [ice]1 die
+,Snowball_upgraded,Do [ice]<d6> damage|Freeze [ice]1 dice,Snowball_upgraded,Do [ice]<d6> damage|Freeze [ice]1 die
+,Freeze Spell_downgraded,Deal [ice]5 damage|Freeze [ice]1 dice,Freeze Spell_downgraded,Deal [ice]5 damage|Freeze [ice]1 die
+,Fireball,Deal [fire]<d6> damage|Burn [fire]1 dice,Fireball,Deal [fire]<d6> damage|Burn [fire]1 die
+,Hall of Mirrors,[]+1 dice this fight,Hall of Mirrors,[]+1 die this fight
+,Burning Light,Deal [fire]<d6> damage|Burn [fire]1 dice,Burning Light,Deal [fire]<d6> damage|Burn [fire]1 die
+,Burning Light_downgraded,Deal [fire]<d6> damage|Burn [fire]1 dice,Burning Light_downgraded,Deal [fire]<d6> damage|Burn [fire]1 die
+,Staff,Deal [fire]6 damage|Burn [fire]1 dice,Staff,Deal [fire]6 damage|Burn [fire]1 die
+,Staff_downgraded,Deal [fire]3 damage|Burn [fire]1 dice,Staff_downgraded,Deal [fire]3 damage|Burn [fire]1 die
+,Staff_upgraded,Deal [fire]8 damage|Burn [fire]1 dice,Staff_upgraded,Deal [fire]8 damage|Burn [fire]1 die
+,Bump,Dice value +1,Bump,Die value +1
+,Bump_upgraded,Dice value +1|[gray](Reuseable),Bump_upgraded,Die value +1|[gray](Reuseable)
+,Nudge,Dice value -1,Nudge,Die value -1
+,Nudge_upgraded,Dice value -1|[gray](Reuseable),Nudge_upgraded,Die value -1|[gray](Reuseable)
+,Counter Spell,If enemy rolls <d6>[;]|that dice is locked,Counter Spell,If enemy rolls <d6>[;]|that die is locked
+,Fire Breath,Do [fire]4 damage|Burn [fire]1 dice,Fire Breath,Do [fire]4 damage|Burn [fire]1 die
+,Fire Breath_upgraded,Do [fire]6 damage|Burn [fire]1 dice,Fire Breath_upgraded,Do [fire]6 damage|Burn [fire]1 die
+,Lockpick,Split a dice in two,Lockpick,Split a die in two
+,Lockpick_upgraded,Split a dice in two|On six[;] split into three,Lockpick_upgraded,Split a die in two|On six[;] split into three
+,Nudgeblade,Do [sword]<d6> damage[;] get|new dice (value -1),Nudgeblade,Do [sword]<d6> damage[;] get|new die (value -1)
+,Nudgeblade_upgraded,Do [sword]<d6> damage[;] get|new dice (value -1),Nudgeblade_upgraded,Do [sword]<d6> damage[;] get|new die (value -1)
+,Nudgeblade_downgraded,Do [sword]<d6> damage[;] get|new dice (value -1),Nudgeblade_downgraded,Do [sword]<d6> damage[;] get|new die (value -1)
+,Nudgeblade_weakened,Do [sword]<d6> damage[;] get|new dice (value -1),Nudgeblade_weakened,Do [sword]<d6> damage[;] get|new die (value -1)
+,Counterfeit,Duplicate a dice,Counterfeit,Duplicate a die
+,Counterfeit_upgraded,Duplicate a dice,Counterfeit_upgraded,Duplicate a die
+,Counterfeit_downgraded,Duplicate a dice,Counterfeit_downgraded,Duplicate a die
+,Counterfeit_weakened,Duplicate a dice,Counterfeit_weakened,Duplicate a die
+,Hacksaw,Split a dice in three,Hacksaw,Split a die in three
+,Hacksaw_upgraded,Split a dice in three,Hacksaw_upgraded,Split a die in three
+,Second Wind_downgraded,Roll an extra dice|[gray](once per battle),Second Wind_downgraded,Roll an extra die|[gray](once per battle)
+,Second Wind_weakened,Roll an extra dice|[gray](once per battle),Second Wind_weakened,Roll an extra die|[gray](once per battle)
+,Doppeldice,Double dice value,Doppeldice,Double die value
+,Doppeldice_upgraded,Double dice value,Doppeldice_upgraded,Double die value
+,Matchstick,Burns [fire]1 dice|[gray](Reuseable),Matchstick,Burns [fire]1 die|[gray](Reuseable)
+,Matchstick_upgraded,Burns [fire]1 dice|[gray](Reuseable),Matchstick_upgraded,Burns [fire]1 die|[gray](Reuseable)
+,Duplicate,Duplicate a dice,Duplicate,Duplicate a die
+,Ice Shard,Do [ice]<d6> damage[;]|Freeze [ice]1 dice,Ice Shard,Do [ice]<d6> damage[;]|Freeze [ice]1 die
+,Inferno,Do [fire]<d6> damage[;]|Burn [fire]1 dice,Inferno,Do [fire]<d6> damage[;]|Burn [fire]1 die
+,Blizzard,Do [ice]<d6> damage[;]|Freeze [ice]1 dice,Blizzard,Do [ice]<d6> damage[;]|Freeze [ice]1 die
+,Meteor_downgraded,Do [fire]10 damage[;]|burn a dice,Meteor_downgraded,Do [fire]10 damage[;]|burn a die
+,Cauldron,Do [sword]1 damage[;]|get a new dice,Cauldron,Do [sword]1 damage[;]|get a new die
+,Glass Cauldron,Freeze [ice]1 dice[;]|roll a one,Glass Cauldron,Freeze [ice]1 die[;]|roll a one
+*** changed,Glass Cauldron_upgraded,Freeze [ice]1 dice[;] roll a one|[gray](Reuseable),Glass Cauldron_upgraded,Freeze [ice]1 die[;] roll a one|[gray](Reuseable)
+,Glass Cauldron_downgraded,Freeze [ice]1 dice,Glass Cauldron_downgraded,Freeze [ice]1 die
+,Gold Cauldron,Do [sword]1 damage[;]|get an even dice,Gold Cauldron,Do [sword]1 damage[;]|get an even die
+*** changed,Gold Cauldron_upgraded,Do [sword]1[;] get an even dice|[gray](Reuseable),Gold Cauldron_upgraded,Do [sword]1[;] get an even die|[gray](Reuseable)
+,Silver Cauldron,Do [sword]1 damage[;]|get an odd dice,Silver Cauldron,Do [sword]1 damage[;]|get an odd die
+*** changed,Silver Cauldron_upgraded,Do [sword]1[;] get an odd dice|[gray](Reuseable),Silver Cauldron_upgraded,Do [sword]1[;] get an odd die|[gray](Reuseable)
+,Crucible,Roll a burning dice|[gray](Reuseable),Crucible,Roll a burning die|[gray](Reuseable)
+,Crucible_downgraded,Roll a burning dice,Crucible_downgraded,Roll a burning die
+,Absolute Zero_downgraded,Do [ice]12 damage[;]|freeze a dice,Absolute Zero_downgraded,Do [ice]12 damage[;]|freeze a die
+,Ink Splat,Blind [blind]1 dice,Ink Splat,Blind [blind]1 die
+,Ink Splat_upgraded,Blind [blind]1 dice|[gray](Reuseable),Ink Splat_upgraded,Blind [blind]1 die|[gray](Reuseable)
+,Seize,Lock [lock]1 dice,Seize,Lock [lock]1 die
+,Spatula,Flip a dice upside down,Spatula,Flip a die upside down
+,Spatula_downgraded,Flip a dice upside down,Spatula_downgraded,Flip a die upside down
+,Spatula_upgraded,Flip a dice upside down|[gray](Reuseable),Spatula_upgraded,Flip a die upside down|[gray](Reuseable)
+,Quarterstaff,Do [sword]<d6> damage[;] on 4[;]|return the dice,Quarterstaff,Do [sword]<d6> damage[;] on 4[;]|return the die
+,Quarterstaff_downgraded,Do [sword]<d6> damage[;] on 4[;]|return the dice,Quarterstaff_downgraded,Do [sword]<d6> damage[;] on 4[;]|return the die
+,Quarterstaff_upgraded,Do [sword]<d6> damage[;] on 4[;]|return the dice,Quarterstaff_upgraded,Do [sword]<d6> damage[;] on 4[;]|return the die
+,Juggling Ball,Do [sword]<d6> damage[;]|get a new dice,Juggling Ball,Do [sword]<d6> damage[;]|get a new die
+,Juggling Ball_upgraded,Do [sword]<d6> damage[;]|get a new dice,Juggling Ball_upgraded,Do [sword]<d6> damage[;]|get a new die
+,Camouflage_downgraded,Blind [blind]1 dice,Camouflage_downgraded,Blind [blind]1 die
+,Sneeze,Split a dice into 1s,Sneeze,Split a die into 1s
+,Sneeze_upgraded,Split a dice into 1s[;]|and roll an extra 1,Sneeze_upgraded,Split a die into 1s[;]|and roll an extra 1
+,Sneeze_downgraded,Split a dice into 1s,Sneeze_downgraded,Split a die into 1s
+,Bumpblade,Do [sword]1 damage[;] get|new dice (value +1),Bumpblade,Do [sword]1 damage[;] get|new die (value +1)
+,Bumpblade_upgraded,[sword]1 dmg[;] bump dice|new dice (value +1),Bumpblade_upgraded,[sword]1 dmg[;] bump die|new die (value +1)
+,Lock 1,Unlocks Keyblade[;]|return the dice,Lock 1,Unlocks Keyblade[;]|return the die
+,Lock 2,Unlocks Keyblade[;]|return the dice,Lock 2,Unlocks Keyblade[;]|return the die
+,Lock 3,Unlocks Keyblade[;]|return the dice,Lock 3,Unlocks Keyblade[;]|return the die
+,Lock 4,Unlocks Keyblade[;]|return the dice,Lock 4,Unlocks Keyblade[;]|return the die
+,Lock 5,Unlocks Keyblade[;]|return the dice,Lock 5,Unlocks Keyblade[;]|return the die
+,Lock 6,Unlocks Keyblade[;]|return the dice,Lock 6,Unlocks Keyblade[;]|return the die
+*** changed,Lock 1_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 1_upgraded,Unlocks Keyblade+[;]|flip die upside down
+*** changed,Lock 2_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 2_upgraded,Unlocks Keyblade+[;]|flip die upside down
+*** changed,Lock 3_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 3_upgraded,Unlocks Keyblade+[;]|flip die upside down
+*** changed,Lock 4_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 4_upgraded,Unlocks Keyblade+[;]|flip die upside down
+*** changed,Lock 5_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 5_upgraded,Unlocks Keyblade+[;]|flip die upside down
+*** changed,Lock 6_upgraded,Unlocks Keyblade+[;]|flip dice upside down,Lock 6_upgraded,Unlocks Keyblade+[;]|flip die upside down
+,Keyblade,Do [sword]3 damage[;]|return the dice,Keyblade,Do [sword]3 damage[;]|return the die
+,Keyblade_upgraded,Do [sword]4 damage[;]|return the dice,Keyblade_upgraded,Do [sword]4 damage[;]|return the die
+,Glue,Lock [lock]1 dice|[gray](Reuseable),Glue,Lock [lock]1 die|[gray](Reuseable)
+,Glue_upgraded,Lock [lock]1 dice|[gray](Reuseable),Glue_upgraded,Lock [lock]1 die|[gray](Reuseable)
+,Campfire,[fire]<timesused> dmg[;] burn a dice|Add +[fire]1 each use,Campfire,[fire]<timesused> dmg[;] burn a die|Add +[fire]1 each use
+,Fire Crystal,Deal [fire]<d6> damage|Burn [fire]1 dice,Fire Crystal,Deal [fire]<d6> damage|Burn [fire]1 die
+,Ice Crystal,Do [ice]<d6> damage[;]|Freeze [ice]1 dice,Ice Crystal,Do [ice]<d6> damage[;]|Freeze [ice]1 die
+,Stumble_upgraded,Lose [heart]1 health[;]|return the dice,Stumble_upgraded,Lose [heart]1 health[;]|return the die
+,Silver Dagger,Do [sword]<d6> damage[;]|if odd[;] get a new dice,Silver Dagger,Do [sword]<d6> damage[;]|if odd[;] get a new die
+,Gold Dagger,Do [sword]<d6> damage[;]|if even[;] get a new dice,Gold Dagger,Do [sword]<d6> damage[;]|if even[;] get a new die
+,Flame Blast,Do [fire]6 damage for|each burning enemy dice,Flame Blast,Do [fire]6 damage for|each burning enemy die
+,Flame Blast_upgraded,Do [fire]7 damage for|each burning enemy dice,Flame Blast_upgraded,Do [fire]7 damage for|each burning enemy die
+,Flame Blast_downgraded,Do [fire]4 damage for|each burning enemy dice,Flame Blast_downgraded,Do [fire]4 damage for|each burning enemy die
+,High Voltage,Do [shock]<d6> damage[;] return|dice if enemy is shocked,High Voltage,Do [shock]<d6> damage[;] return|die if enemy is shocked
+,High Voltage_upgraded,Do [shock]<d6> damage[;] return|dice if enemy is shocked,High Voltage_upgraded,Do [shock]<d6> damage[;] return|die if enemy is shocked
+,High Voltage_downgraded,Do [shock]<d6> damage[;] return|dice if enemy is shocked,High Voltage_downgraded,Do [shock]<d6> damage[;] return|die if enemy is shocked
+,Spark,Burns [fire]1 dice,Spark,Burns [fire]1 die
+,Snowflake,Freeze [ice]1 dice,Snowflake,Freeze [ice]1 die
+,Boop_upgraded,Do [sword]2 damage[;]|return the dice,Boop_upgraded,Do [sword]2 damage[;]|return the die
+,Scissors,Do [sword]<d6> damage[;]|split dice in two,Scissors,Do [sword]<d6> damage[;]|split die in two
+,Gemstone Staff,Do [ice]6 damage|Freeze [ice]1 dice,Gemstone Staff,Do [ice]6 damage|Freeze [ice]1 die
+,Gemstone Staff_weakened,Do [ice]6 damage|Freeze [ice]1 dice,Gemstone Staff_weakened,Do [ice]6 damage|Freeze [ice]1 die
+,Gemstone Staff_downgraded,Do [ice]3 damage|Freeze [ice]1 dice,Gemstone Staff_downgraded,Do [ice]3 damage|Freeze [ice]1 die
+,Thick Skin,Add [shield]<d6> to shield[;]|return the dice,Thick Skin,Add [shield]<d6> to shield[;]|return the die
+,Thick Skin_upgraded,[]+[shield]<d6> shield[;] +[reduce]1 reduce[;]|return the dice,Thick Skin_upgraded,[]+[shield]<d6> shield[;] +[reduce]1 reduce[;]|return the die
+,Combat Spatula,Flip a dice upside down|[gray](Reuseable),Combat Spatula,Flip a die upside down|[gray](Reuseable)
+,Grappling Hook?,Keep the next dice you|use[;] and return this dice,Grappling Hook?,Keep the next die you|use[;] and return this die
+,Grappling Hook?_upgraded,Keep the next dice you|use[;] and return this dice,Grappling Hook?_upgraded,Keep the next die you|use[;] and return this die
+,Grappling Hook?_downgraded,Keep the next dice you use,Grappling Hook?_downgraded,Keep the next die you use
+,Fishing Net,Do [sword]<d6> damage[;]|lock [lock]1 dice on 3,Fishing Net,Do [sword]<d6> damage[;]|lock [lock]1 die on 3
+,Fishing Net_downgraded,Do [sword]<d6> damage[;]|lock [lock]1 dice on 2,Fishing Net_downgraded,Do [sword]<d6> damage[;]|lock [lock]1 die on 2
+,Fishing Net_upgraded,Do [sword]<d6> damage[;]|lock [lock]1 dice on 5,Fishing Net_upgraded,Do [sword]<d6> damage[;]|lock [lock]1 die on 5
+,Ignite_upgraded,Inflict [fire]1 burn[;]|return the dice,Ignite_upgraded,Inflict [fire]1 burn[;]|return the die
+,Lucky Roll,Reroll the dice[;] get a|higher value than before,Lucky Roll,Reroll the die[;] get a|higher value than before
+,Sine Wave,First dice value +1|Second dice value -1,Sine Wave,First die value +1|Second die value -1
+,Sine Wave_upgraded,Both dice values +1,Sine Wave_upgraded,Both die values +1
+,Sine Wave_downgraded,Both dice values -1,Sine Wave_downgraded,Both die values -1
+,Candle,Dice value -1[;] Lose [heart]1 hp|[gray](Reuseable),Candle,Die value -1[;] Lose [heart]1 hp|[gray](Reuseable)
+,Candle_upgraded,Dice value +1[;] Lose [heart]1 hp|[gray](Reuseable),Candle_upgraded,Die value +1[;] Lose [heart]1 hp|[gray](Reuseable)
+,Slingshot,Do [sword]6 damage[;]|reroll the dice,Slingshot,Do [sword]6 damage[;]|reroll the die
+,Disco Ball,Get +1 dice next turn|if the enemy rolls a <d6>,Disco Ball,Get +1 die next turn|if the enemy rolls a <d6>
+,Disco Ball_upgraded,Get +1 dice next turn|if the enemy rolls a <d6>|[gray](Reuseable),Disco Ball_upgraded,Get +1 die next turn|if the enemy rolls a <d6>|[gray](Reuseable)
+,Freeze Spell?_upgraded,Deal [ice]5 damage|Inflict [ice]1 freeze per dice,Freeze Spell?_upgraded,Deal [ice]5 damage|Inflict [ice]1 freeze per die
+*** new,Magic Key,Split a dice in two,Magic Key,Split a die in two
+*** new,Magic Key_upgraded,Split a dice in two,Magic Key_upgraded,Split a die in two
+*** new,Mechanical Leg,Do [sword]2 damage for each|unused dice ([sword]<doubleunassigneddice> total),Mechanical Leg,Do [sword]2 damage for each|unused die ([sword]<doubleunassigneddice> total)
+*** new,Mechanical Leg_upgraded,[sword]2 per unused dice ([sword]<doubleunassigneddice>)|[gray](Reuseable),Mechanical Leg_upgraded,[sword]2 per unused die ([sword]<doubleunassigneddice>)|[gray](Reuseable)
+*** new,Mechanical Leg_downgraded,Do [sword]1 damage for each|unused dice ([sword]<unassigneddice> total),Mechanical Leg_downgraded,Do [sword]1 damage for each|unused die ([sword]<unassigneddice> total)
+*** new,Spatulasword,Do [sword]<d6> damage[;] and|flip the dice upside down,Spatulasword,Do [sword]<d6> damage[;] and|flip the die upside down
+*** new,Spatulasword_upgraded,Flip the dice upside down[;]|and do [sword]<d6> damage,Spatulasword_upgraded,Flip the die upside down[;]|and do [sword]<d6> damage
+*** new,Spatulasword_downgraded,Flip a dice upside down,Spatulasword_downgraded,Flip a die upside down
+*** new,Ungeradedice,Double dice value[;]|then subtract 1,Ungeradedice,Double die value[;]|then subtract 1
+*** new,Ungeradedice_upgraded,Double dice value[;]|then add 1,Ungeradedice_upgraded,Double die value[;]|then add 1
+*** new,Missing Score,Do [sword]<d6> damage|25% chance to return dice,Missing Score,Do [sword]<d6> damage|25% chance to return die
+*** new,Missing Score_upgraded,Do [sword]<d6> damage|75% chance to return dice,Missing Score_upgraded,Do [sword]<d6> damage|75% chance to return die
+*** new,Lojinx,Do [sword]2 for each [jinx]jinx[;]|then return the dice,Lojinx,Do [sword]2 for each [jinx]jinx[;]|then return the die
+*** new,Lojinx_upgraded,Do [sword]3 for each [jinx]jinx[;]|then return the dice,Lojinx_upgraded,Do [sword]3 for each [jinx]jinx[;]|then return the die
+*** new,Lojinx_downgraded,Do [sword]1 for each [jinx]jinx[;]|then return the dice,Lojinx_downgraded,Do [sword]1 for each [jinx]jinx[;]|then return the die
+*** new,Subdivide,Split a dice evenly,Subdivide,Split a die evenly
+*** new,Subdivide_upgraded,Split a dice as|evenly as possible,Subdivide_upgraded,Split a die as|evenly as possible
+*** new,Lollipop,Dice value -1. On 1[;]|instead return two 1s,Lollipop,Die value -1. On 1[;]|instead return two 1s
+*** new,Shadow Dice,Duplicate a dice|Lose [heart]<d6> health,Shadow Dice,Duplicate a die|Lose [heart]<d6> health
+*** new,Shadow Dice_upgraded,Duplicate a dice|Lose [heart]<d6> health|[gray](Reuseable),Shadow Dice_upgraded,Duplicate a die|Lose [heart]<d6> health|[gray](Reuseable)
+*** new,Mirror Shard,Do [sword]9 damage[;]|+1 dice this fight,Mirror Shard,Do [sword]9 damage[;]|+1 die this fight
+*** new,Mirror Shard_upgraded,Do [sword]12 damage[;]|+1 dice this fight,Mirror Shard_upgraded,Do [sword]12 damage[;]|+1 die this fight
+*** new,Gumball Machine,Recover [heal]1 health[;]|get a new dice,Gumball Machine,Recover [heal]1 health[;]|get a new die
+*** new,Gumball Machine_upgraded,Recover [heal]<d6> health[;]|get a new dice,Gumball Machine_upgraded,Recover [heal]<d6> health[;]|get a new die
+*** new,Bow Wow Wow,Make unavailable cards|available[;] return dice,Bow Wow Wow,Make unavailable cards|available[;] return die
+*** new,Yip Yip Yip,Reroll a dice|(maintains [fury]Fury[]),Yip Yip Yip,Reroll a die|(maintains [fury]Fury[])
+*** new,Yip Yip Yip_upgraded,Reroll a dice|(maintains [fury]Fury[]),Yip Yip Yip_upgraded,Reroll a die|(maintains [fury]Fury[])
+*** new,Yip Yip Yip_downgraded,Reroll a dice,Yip Yip Yip_downgraded,Reroll a die
+*** new,Table Slam,Reroll all unused dice[;]|and return this dice,Table Slam,Reroll all unused dice[;]|and return this die
+*** new,Chorus,Roll a dice for every|[weaken]1 weaken on enemy,Chorus,Roll a die for every|[weaken]1 weaken on enemy
+*** new,Front Line,Lose [heart]3 health[;] gain|[shield]3 shield[;] return the dice,Front Line,Lose [heart]3 health[;] gain|[shield]3 shield[;] return the die
+*** new,Front Line_upgraded,Lose [heart]6 health[;] gain|[shield]6 shield[;] return the dice,Front Line_upgraded,Lose [heart]6 health[;] gain|[shield]6 shield[;] return the die
+*** new,Fruit Bowl,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice),Fruit Bowl,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice)
+*** new,Fruit Bowl_upgraded,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice)|[gray](Reuseable),Fruit Bowl_upgraded,Do [sword]1 damage[;] reroll dice|(Cost [mana]1[]: return two dice)|[gray](Reuseable)
+*** new,Dice Detonator,Do [sword]<var_tempdicedetonator:throwndicecount> damage|([sword]2 per dice thrown),Dice Detonator,Do [sword]<var_tempdicedetonator:throwndicecount> damage|([sword]2 per die thrown)
+*** new,Mirror Cauldron,Get a new dice[;] on 6|get +1 dice this fight,Mirror Cauldron,Get a new die[;] on 6|get +1 die this fight
+*** new,Mirror Cauldron_upgraded,Get a new dice[;] on even|get +1 dice this fight,Mirror Cauldron_upgraded,Get a new die[;] on even|get +1 die this fight
+*** new,Mirror Cauldron_downgraded,Get a new dice,Mirror Cauldron_downgraded,Get a new die
+*** new,Doppeltwice,Double dice value|[gray](Reuseable),Doppeltwice,Double die value|[gray](Reuseable)
+*** new,Doppeltwice_upgraded,Double dice value|[gray](Reuseable),Doppeltwice_upgraded,Double die value|[gray](Reuseable)
+*** new,Magnifying Glass,Double dice value|(Cost [mana]1[]: instead[;] triple),Magnifying Glass,Double die value|(Cost [mana]1[]: instead[;] triple)
+*** new,Magnifying Glass_upgraded,Double dice value|(Cost [mana]1[]: instead[;] triple),Magnifying Glass_upgraded,Double die value|(Cost [mana]1[]: instead[;] triple)
+*** new,Stew Pot,Do [sword]1 damage[;] reroll dice|(If [mana]>=6: return 5 or 6),Stew Pot,Do [sword]1 damage[;] reroll die|(If [mana]>=6: return 5 or 6)
+*** new,Flower Pot,Get a new dice[;]|on 4[;] gain [mana]1 mana,Flower Pot,Get a new die[;]|on 4[;] gain [mana]1 mana
+*** new,Flower Pot_upgraded,Get a new dice[;]|on even[;] gain [mana]1 mana,Flower Pot_upgraded,Get a new die[;]|on even[;] gain [mana]1 mana
+*** new,Flower Pot_downgraded,Get a new dice,Flower Pot_downgraded,Get a new die
+*** new,Bronze Cauldron,Do [sword]2[;] get an odd dice|[gray](Reuseable),Bronze Cauldron,Do [sword]2[;] get an odd die|[gray](Reuseable)
+*** new,Bronze Cauldron_upgraded,Do [sword]3[;] get an odd dice|[gray](Reuseable),Bronze Cauldron_upgraded,Do [sword]3[;] get an odd die|[gray](Reuseable)
+*** new,Daffodil,Dice value -1|(At start of turn: get [mana]1),Daffodil,Die value -1|(At start of turn: get [mana]1)
+*** new,Daffodil_upgraded,Dice value -1|(At start of turn: get [mana]1),Daffodil_upgraded,Die value -1|(At start of turn: get [mana]1)
+*** new,Sunburn,Do [fire]<d6> damage|(Cost [mana]1[]: burn a dice),Sunburn,Do [fire]<d6> damage|(Cost [mana]1[]: burn a die)
+*** new,Sunburn_upgraded,Do [fire]<d6> damage|(Cost [mana]1[]: burn a dice),Sunburn_upgraded,Do [fire]<d6> damage|(Cost [mana]1[]: burn a die)
+*** new,Lucky 7,Do [sword]7[;] return a dice,Lucky 7,Do [sword]7[;] return a die
+*** new,Lucky 7_upgraded,Do [sword]7[;] return first dice,Lucky 7_upgraded,Do [sword]7[;] return first die
+*** new,Master Key,Split a dice as|evenly as possible,Master Key,Split a die as|evenly as possible
+*** new,Master Key_upgraded,Split a dice as|evenly as possible,Master Key_upgraded,Split a die as|evenly as possible
+*** new,Master Key_downgraded,Split a dice as|evenly as possible,Master Key_downgraded,Split a die as|evenly as possible
+*** new,Chisel,Dice value -1[;] roll a 1,Chisel,Die value -1[;] roll a 1
+*** new,Chisel_upgraded,Dice value -1[;] roll a 1|[gray](Reuseable),Chisel_upgraded,Die value -1[;] roll a 1|[gray](Reuseable)
+*** new,Chisel_downgraded,Dice value -1,Chisel_downgraded,Die value -1
+*** new,Signal Jammer,Split a dice unevenly,Signal Jammer,Split a die unevenly
+*** new,Signal Jammer_downgraded,Split a dice unevenly,Signal Jammer_downgraded,Split a die unevenly
+*** new,Signal Jammer_upgraded,Split a dice unevenly|[gray](Reuseable),Signal Jammer_upgraded,Split a die unevenly|[gray](Reuseable)
+*** new,Splitula,Flip a dice upside down[;]|duplicate the flipped dice,Splitula,Flip a die upside down[;]|duplicate the flipped die
+*** new,Splitula_upgraded,Flip a dice upside down[;]|duplicate the flipped dice,Splitula_upgraded,Flip a die upside down[;]|duplicate the flipped die
+*** new,Splitula_downgraded,Flip a dice upside down,Splitula_downgraded,Flip a die upside down
+*** new,Befuddle,Duplicate one dice[;]|return the other,Befuddle,Duplicate one die[;]|return the other
+*** new,Befuddle_upgraded,Duplicate one dice[;]|return the other,Befuddle_upgraded,Duplicate one die[;]|return the other
+*** new,Befuddle_downgraded,Duplicate one dice[;]|return the other,Befuddle_downgraded,Duplicate one die[;]|return the other
+*** new,Befuddle_weakened,Duplicate one dice[;]|return the other,Befuddle_weakened,Duplicate one die[;]|return the other
+*** new,Broken Mirror,Next turn[;] gain +1 dice this|fight[;] and curse yourself,Broken Mirror,Next turn[;] gain +1 die this|fight[;] and curse yourself
+*** new,Dramatic Entrance_downgraded,At the start of the first|turn[;] roll an extra dice,Dramatic Entrance_downgraded,At the start of the first|turn[;] roll an extra die
+*** new,Berlin Key,Set a random dice to <d6>|Return the dice,Berlin Key,Set a random die to <d6>|Return the die
+*** new,Berlin Key_upgraded,Set dice to <d6>[;] return dice|[gray](Reuseable),Berlin Key_upgraded,Set die to <d6>[;] return die|[gray](Reuseable)
+*** new,Berlin Key_downgraded,Set a random dice to <d6>|Return the dice,Berlin Key_downgraded,Set a random die to <d6>|Return the die
+*** new,Harmony,Do [weaken]<d6> damage[;] return|dice if enemy is weakened,Harmony,Do [weaken]<d6> damage[;] return|die if enemy is weakened
+*** new,Lighter,Do [fire]2 damage[;]|burn [fire]1 dice,Lighter,Do [fire]2 damage[;]|burn [fire]1 die
+*** new,Lighter_upgraded,Do [fire]3 damage[;]|burn [fire]1 dice,Lighter_upgraded,Do [fire]3 damage[;]|burn [fire]1 die
+*** new,Lighter_downgraded,Do [fire]1 damage[;]|burn [fire]1 dice,Lighter_downgraded,Do [fire]1 damage[;]|burn [fire]1 die
+*** new,Molotov Cocktail,Do [fire]<d6> damage[;]|on 4[;] burn [fire]1 dice,Molotov Cocktail,Do [fire]<d6> damage[;]|on 4[;] burn [fire]1 die
+*** new,Molotov Cocktail_upgraded,Do [fire]<d6> damage[;]|on even[;] burn [fire]1 dice,Molotov Cocktail_upgraded,Do [fire]<d6> damage[;]|on even[;] burn [fire]1 die
+*** new,Scrap Kettle_upgraded,Roll a burning dice|(Always offered as scrap),Scrap Kettle_upgraded,Roll a burning die|(Always offered as scrap)
+*** new,Scrap Book,Duplicate a dice|(Always offered as scrap),Scrap Book,Duplicate a die|(Always offered as scrap)
+*** new,Scrap Bump,Dice value +1|(Always offered as scrap),Scrap Bump,Die value +1|(Always offered as scrap)
+*** new,Scrap Bump_upgraded,Dice value +1|(Always offered as scrap),Scrap Bump_upgraded,Die value +1|(Always offered as scrap)
+*** FINALE,Slime Ball,Burns [fire]1 dice,Slime Ball,Burns [fire]1 die
+*** FINALE,Custard Pie,Blind 2 dice[;] then|return the dice,Custard Pie,Blind 2 dice[;] then|return the die
+*** FINALE,Custard Pie_upgraded,Blind 4 dice[;] then|return the dice,Custard Pie_upgraded,Blind 4 dice[;] then|return the die
+*** FINALE,Custard Pie_downgraded,Blind 1 dice[;] then|return the dice,Custard Pie_downgraded,Blind 1 dice[;] then|return the die
+*** FINALE,Blood Cauldron,Drain [heart]1 health[;]|get a new dice,Blood Cauldron,Drain [heart]1 health[;]|get a new die
+*** FINALE,Blood Cauldron_upgraded,Drain [heart]1 health[;] reroll dice|[gray](Reuseable),Blood Cauldron_upgraded,Drain [heart]1 health[;] reroll die|[gray](Reuseable)
+*** FINALE,Beetle Headbutt,Do [sword]5 damage[;]|Lock [lock]1 dice,Beetle Headbutt,Do [sword]5 damage[;]|Lock [lock]1 die
+*** FINALE,Beetle Headbutt_upgraded,Do [sword]8 damage[;]|Lock [lock]1 dice,Beetle Headbutt_upgraded,Do [sword]8 damage[;]|Lock [lock]1 die
+*** FINALE,Beetle Headbutt_downgraded,Lock [lock]1 dice,Beetle Headbutt_downgraded,Lock [lock]1 die
+*** FINALE,Uptick@1,Increase and reset all dice|[gray](Current uptick: 1),Uptick@1,Increase and reset all dice|[gray](Current uptick: 1)
+*** FINALE,Uptick@2,Increase and reset all dice|[gray](Current uptick: 2),Uptick@2,Increase and reset all dice|[gray](Current uptick: 2)
+*** FINALE,Uptick@3,Increase and reset all dice|[gray](Current uptick: 3),Uptick@3,Increase and reset all dice|[gray](Current uptick: 3)
+*** FINALE,Uptick@4,Increase and reset all dice|[gray](Current uptick: 4),Uptick@4,Increase and reset all dice|[gray](Current uptick: 4)
+*** FINALE,Uptick@5,Increase and reset all dice|[gray](Current uptick: 5),Uptick@5,Increase and reset all dice|[gray](Current uptick: 5)
+*** FINALE,Glare,Lock [lock]1 dice|[gray](Reuseable),Glare,Lock [lock]1 die|[gray](Reuseable)
+*** FINALE,Glare_downgraded,Lock [lock]1 dice,Glare_downgraded,Lock [lock]1 die
+*** FINALE,Hurricane,Do [sword]4[;] lock [lock]1 dice|[gray](once per battle),Hurricane,Do [sword]4[;] lock [lock]1 die|[gray](once per battle)

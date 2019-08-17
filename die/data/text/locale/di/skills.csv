@@ -1,29 +1,12 @@
-Changed?,Name,Description,Name_di,Description_di,
-,Infinite Dice,Get more dice,Dado infinito,Consigue más dados,
-,Magic Dice,Roll an extra dice,Dado mágico,Lanza un dado extra,
-,Focus,All dice become 6,Concentración,Todos los dados pasan a 6,
-,Reroll,Reroll unused dice,Lanzar de nuevo,Lanza de nuevo el dado sin usar,
-,Rage,Roll 2 dice[;] -5[heart],Rabia,Lanza 2 dados[;] -5[heart],
-,Dexterity,Keep dice after attack,Destreza,Conserva el dado tras atacar,
-,Meganudge,[]-1 to all dice,Megarredondeo,[]-1 en todos los dados,
-,Megabump,[]+1 to all dice,Megaimpulso,[]+1 en todos los dados,
-,Clone Device,Duplicate all dice,Dispositivo de clonación,Duplica todos los dados,
-,Battle Wrench,Combine all dice,Llave inglesa de combate,Combina todos los dados,
-,Refrigerator,Freeze [ice]1 dice,Refrigerador,Congela [ice]1 dado,
-,Broomstick,Roll 3 extra dice,Palo de escoba,Lanza 3 dados extra,
-,One More Roll,Roll one more dice,Una tirada más,Lanza un dado más,
-,Crystal Ball,Roll 3 extra dice,Bola de cristal,Lanza 3 dados extra,
-,Magic Lockpick,Split a random dice,Ganzúa mágica,Divide un dado aleatorio,
-,Throw Dice,Do [sword]1 damage,Arrojar dado,Hace [sword]1 de daño,
-,Heat Ray,Burn all dice,Rayo calórico,Quema todos los dados,
-,Unfocused,Set all dice to the same random value,Descentrado,Da el mismo valor aleatorio a todos los dados,
-,Marble,Roll 2 extra dice,Canica,Lanza 2 dados extra,
-***,Throw Dice,Do [sword]1 damage,Arrojar dado,Hace [sword]1 de daño,
-***,Infinity Mirror,[]+1 dice this fight,Espejo infinito,[]+1 dado en esta pelea,
-***,Megaflip,Flip all dice upside down,Megavolteo,Voltea todos los dados,
-***,Dramatic Pause,Curse the enemy,Pausa dramática,Maldice al enemigo,
-***,Random Roll,Reroll a random dice,Tirada al azar,Lanza de nuevo un dado al azar,
-***,Magic Spanner,Combine random dice,Llave mágica,Combina dados al azar,
-***,Replicate,Copy a random dice,Copiar,Copia un dado al azar,
-*** FINAL,Oh No!,Roll 4 even dice,***,***,
-*** FINAL,Trips,Rol three dice at the current uptick value,***,***,
+Changed?,Name,Description,Name_di,Description_di
+,Magic Dice,Roll an extra dice,Magic Dice,Roll an extra die
+,Dexterity,Keep dice after attack,Dexterity,Keep dice after attack
+,Refrigerator,Freeze [ice]1 dice,Refrigerator,Freeze [ice]1 die
+,One More Roll,Roll one more dice,One More Roll,Roll one more die
+,Magic Lockpick,Split a random dice,Magic Lockpick,Split a random die
+,Throw Dice,Do [sword]1 damage,Throw Die,Do [sword]1 damage
+***,Throw Dice,Do [sword]1 damage,Throw Die,Do [sword]1 damage
+***,Infinity Mirror,[]+1 dice this fight,Infinity Mirror,[]+1 die this fight
+***,Megaflip,Flip all dice upside down,Megaflip,Flip all dice upside down
+***,Random Roll,Reroll a random dice,Random Roll,Reroll a random die
+***,Replicate,Copy a random dice,Replicate,Copy a random die
