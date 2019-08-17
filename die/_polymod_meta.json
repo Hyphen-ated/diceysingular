@@ -1,0 +1,8 @@
+{
+	"title":"Singular Die",
+	"description":"Corrects the use of the word 'dice' to refer to a single d6",
+	"author":"Hyphen-ated",
+	"api_version":"0.11.0",
+	"mod_version":"1.0.0-alpha",
+	"license":"CC BY 4.0,MIT"
+}
